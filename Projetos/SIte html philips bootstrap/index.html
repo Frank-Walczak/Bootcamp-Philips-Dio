@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">     <!-- //abertura do hatml com indicação da lingua adotada na página -->
+    <head>
+        <title>Minha Página</title> <!-- // titulo da página que vai aparecer na aba  -->
+        <meta charset="utf-8">     <!--  //codificação para evitar que sinalizações não sejam reconhecidas -->
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+        <!-- //acima importamos o arquivo min css do boot strap -->
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    </head>
+    <body>
+        <!-- abaixo segue o codigo css obtido napagina: https://getbootstrap.com/docs/5.1/components/navbar/ -->
+        <nav class="navbar navbar-expand-lg navbar-light margin">
+            <a class="navbar-brand" href="https://www.philips.com/global/" target="_blank">
+                <img src="img/phi3.png" class="rounded-circle" width="60" height="60">
+            </a>
+            
+            <div class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+                <li class="nav-item"><!-- criando a linha de links (barra de navegação) -->
+                    <a class="nav-link" href="#parceiros"> Parceiros </a><!-- class nav link modifica o efeito do texto, deixando mais bacana -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#servicos"> Serviços</a><!-- class nav link modifica o efeito do texto, deixando mais bacana -->
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#quem-somos">Quem somos </a><!-- class nav link modifica o efeito do texto, deixando mais bacana -->
+                </li>
+                <a class="navbar-brand" href="https://web.dio.me/" target="_blank"><!-- icone da dio ao lado da barra de navagação -->
+                    <img src="img/dio2.png" class="rounded-circle" width="100" height="50">
+                </a>
+            </ul>
+        <div>
+        </nav>
+
+        <section id="quem-somos">
+            <div class="container-fluid text-center margin quem-somos">
+                    <h1>QUEM SOMOS</h1>
+                    <!-- abaixo fizemos a inserçao da imagem, e arredondamos os cantos tornando ela circular -->
+                    <!-- onde encontrar este tipo de congig? carousel no site:https://jqueryui.com/ -->
+                    <img src="img/phi-loja.png" class="rounded-circle" width="400" height="400">
+                    <h3>Aqui, você e sua família, estão em boas mãos!</h3>
+                    
+            </div>
+            <!-- CRIANDO UMA ÁREA PARA PARCEIROS ABAIXO DA DESCRIÇÃO DO TIME -->
+        <selection id="parceiros">
+            <div class="container-fluid text-center margin parceiros">
+                <h1>PARCEIROS</h1>
+               
+                <!-- vamos criaar uma divisão de 3 colunas igual no site getbootstrap.com modelo carousel -->
+                <div class="container">
+                    <div class="row">
+                        <!-- abaixo usamos lg para grande, sm para small, md para medio -->
+                       <div class="col-lg-4">
+                            <img src="img/phi.png" class="rounded-circle" width="120" height="120">
+                        </div>
+
+                        <div class="col-lg-4">
+                            <img src="img/dio3.jfif" class="rounded-circle" width="120" height="120">
+                        </div>
+                                                
+                        <div class="col-lg-4">
+                            <img src="img/phi4.png" class="rounded-circle" width="120" height="120">
+                        </div>
+
+                        <div class="col-lg-4 margin">
+                            <img src="img/phiblue.png" width="100%" height="100">
+                        </div>
+                        
+                        <div class="col-lg-4 margin">
+                            <img src="img/dio.png" width="100%" height="100">
+                        </div>
+                        <!-- com width em 100%, ordenamos que a imagem se adeque ao tamanho da coluna -->
+                        <div class="col-lg-4 margin">
+                            <img src="img/phi2.png" width="100%" height="100">
+                        </div>
+                                                
+                    </div>
+                </div>
+            </div>
+        </selection>
+
+        <section id="servicos">
+            <div class="container-fluid text-center margin sevicos">
+                    <h1>SERVIÇOS</h1>
+                    <div class="row">
+                        <!-- para aumentar ou diminuir o numero de colunas, leve em consideração o numero 12 como resultado da soma dos numeros em "col-lg-???" -->
+                        <div  class="col-lg-6 margin">
+                            <img src="img/phi-tom-blue.png" width="100%">
+                            <p>Usamos o que á de mais tecnológico, para encontrar o que te torna mais Humano.</p>
+                        </div>
+                        <!-- aqui, para duas colunas, duas classes de 6, para 4 colunas, 4 classes de 3 e etc... --> 
+                        <div class="col-lg-6 margin">
+                            <img src="img/mesa-tech.jfif" width="100%" height="365" >
+                            <p>Pessoas dedicadas, com a finalidade de tornar o mundo, um lugar melhor pra se viver.</p>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por Dr. Frank Walczak</p>
+            <a href="mailto:franck.wolczk@gmail.com" target="_blank">E-mail: Dr. Frank Walczak</a>
+        </footer>
+
+    </body>
+
+</html>

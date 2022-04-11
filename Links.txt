@@ -1,0 +1,24 @@
+https://web.dio.me/course/primeiros-passos-para-desenvolvimento-web/learning/9a77b82b-03d2-413f-a28b-18ac6c5fa725?back=/track/impulso-fullstack-web-developer&tab=undefined&moduleId=undefined
+	aula primeiros passos criando sites
+
+
+	https://jqueryui.com/accordion/
+		criar html com headers separadas que se expandem ao clicar.
+
+
+
+https://www.sonarlint.org/
+	dica de app que identifica erros nas linhas de códigos em várias linguagens diferentes
+
+https://getbootstrap.com/
+
+https://www.pexels.com/pt-br/procurar/web%20page/
+repositório de imagens gratuitas
+
+https://htmlcolorcodes.com/
+cores pra html
+
+ <a href="mailto:lucas@vilaboim.com" target="_blank">lucas@vilaboim.com</a>
+fazer um blank
+
+https://www.online-image-editor.com/

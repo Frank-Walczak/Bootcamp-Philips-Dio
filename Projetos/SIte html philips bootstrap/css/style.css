@@ -1,0 +1,35 @@
+body{
+    font: 25px Times; sans-seriff;
+}
+.navbar {
+    background-color: white;
+}
+
+.quem-somos{
+    background-color: rgb(10, 2, 63);
+    color: white;
+}
+
+/* .margin{
+    margin-top: 30px; */
+    /* acima criariamos uma margem separando mas vamos usar o comando padding*/
+
+.margin{
+        padding-bottom: 50px;
+        padding-top: 10px;
+}
+
+.parceiros{
+        background-color: aquamarine;
+        color: black;
+
+}
+
+.servicos{
+    background-color: blue;
+    color: black;
+}
+.bg-footer{
+        background-color: black;
+        color: white;
+}

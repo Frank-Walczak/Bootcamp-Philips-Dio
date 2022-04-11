@@ -1,0 +1,21 @@
+const  getAdmins  =  ( mapa )  =>  {
+	deixe  administradores  =  [ ] ;
+
+	for  ( [ chave ,  valor ]  do  mapa )  {
+		if  ( valor  ===  'ADMIN' )  {
+			administradores . empurre ( tecla ) ;
+		}
+	}
+
+	 administradores de retorno ;
+} ;
+
+const  userRoles  =  new  Map ( ) ;
+
+userRoles . set ( 'Stephany' ,  'SUDO' ) ;
+userRoles . set ( 'Luiz' ,  'ADMIN' ) ;
+userRoles . set ( 'Elvira' ,  'ADMIN' ) ;
+userRoles . set ( 'Carolina' ,  'USUÁRIO' ) ;
+userRoles . set ( 'Guilherme' ,  'USUÁRIO' ) ;
+
+consola . log ( getAdmins ( userRoles ) ) ;
